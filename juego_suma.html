@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Adittion Game</h1>
+    <div class="container">
+       <div class="left">
+        <div class="container-operacion">
+            <span class="suma" id="suma">9+9 = </span>
+            <span class="resultado" id="resultado">18</span>
+        </div>
+        <span class="message" id="message">Excelent</span>
+       </div>
+
+       <div class="right">
+           <span class="option" id="op1" onclick="comprobarRespuesta(this)">18</span>
+           <span class="option" id="op2" onclick="comprobarRespuesta(this)">18</span>
+           <span class="option" id="op3" onclick="comprobarRespuesta(this)">18</span>
+       </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
